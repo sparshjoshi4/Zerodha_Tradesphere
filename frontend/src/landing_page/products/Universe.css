@@ -1,0 +1,25 @@
+.partners{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 100px;   /* row gap column gap */
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+
+.partner{
+    text-align: center;
+}
+
+
+.partner img{
+    width: 180px;
+    height: auto;
+}
+
+
+.partner p{
+    color: gray;
+    font-size: 14px;
+}
